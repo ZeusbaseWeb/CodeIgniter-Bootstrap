@@ -12,23 +12,19 @@
   
   </head>
   <body>
-  
-  
-			
-			<div class="container">
-			   <div class="jumbotron">
+		<div class="container">
+		   <div class="jumbotron">
 			      <h2>Zeusbase Web Edition</h2>
 			      <p>Code Igniter with Bootstrap+jQuery Built In</p>
 			      <a class="btn btn-danger btn-large" target="_blank" href="http://www.zeusframework.com"> <i class="fa fa-bolt fa-lg"></i> Zeus Framework</a>
-				   <a class="btn btn-info btn-large" href="<?php echo site_url('boesk/index') ?>"> <i class="fa fa-crosshairs fa-lg"></i> Location Modules</a>       
+				   <a class="btn btn-info btn-large" href="<?php echo site_url('boesk/location') ?>"> <i class="fa fa-crosshairs fa-lg"></i> Location Modules</a>       
 			       <a class="btn btn-warning btn-large" href="<?php echo site_url('boesk/index') ?>"> <i class="fa fa-code fa-lg"></i> Custom Libraries </a>
 				   <a class="btn btn-success btn-large" href="<?php echo site_url('boesk/index') ?>"> <i class="fa fa-crop fa-lg"></i> Media Managers </a>       
 			   </div>
 			   
 			  <div class="row marketing">
 			    <div class="col-lg-6">
-			      <h4>Libraries</h4>
-			
+			      <h4>API Libraries</h4>			
 			        <div class="panel-group" id="accordion-panel">
 			          <div class="panel panel-default">
 			            <div class="panel-heading">
@@ -87,7 +83,7 @@
 			
 			      <h4>Core Modules</h4>
 			          <div class="list-group">
-			            <a href="#" class="list-group-item active">Cras justo odio</a>
+			            <a href="#" class="list-group-item">Cras justo odio</a>
 			            <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
 			            <a href="#" class="list-group-item">Morbi leo risus</a>
 			            <a href="#" class="list-group-item">Porta ac consectetur ac</a>
@@ -154,10 +150,9 @@
 			          </ul>
 			
 			
-			      <h4>Components</h4>
-			
+			      <h4>Components</h4>			
 			          <div class="list-group">
-			            <a href="#" class="list-group-item active">
+			            <a href="#" class="list-group-item">
 			              <h4 class="list-group-item-heading">List group item heading</h4>
 			              <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
 			            </a>
@@ -183,7 +178,7 @@
 			  
 			</div>
 
-  <?php $this->load->view('inc/scripts') ?>
+			<?php $this->load->view('inc/scripts') ?>
   
   </body>
 </html>

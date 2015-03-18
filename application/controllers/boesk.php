@@ -4,9 +4,15 @@ class Boesk extends Main_Controller {
 
    public function index()
 	{
-      $this->load->view('include/header');
+
       $this->load->view('layouts/jumbotron');
-      $this->load->view('include/footer');
+
+	}
+ 
+	public function location(){
+
+      $this->load->view('layouts/offcanvas');
+
 	}
    
 }
